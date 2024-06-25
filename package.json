@@ -1,0 +1,19 @@
+{
+  "name": "archive_3",
+  "version": "1.0.0",
+  "main": "combineJsonArrays.js",
+  "scripts": {
+    "filter": "ts-node filteration.ts mixed.json mixed.json",
+    "combine": "ts-node combineJsonFiles.ts mixed1.json mixed2.json output.json",
+    "start": "ts-node script.ts mixed.json output.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^20.14.8",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.2"
+  }
+}
